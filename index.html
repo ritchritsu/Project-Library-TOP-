@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="book-form">
+      <form>
+        <label for="author">Author:</label><br />
+        <input type="text" id="author" name="author" /><br />
+        <label for="title">Title:</label><br />
+        <input type="text" id="title" name="title" /><br />
+        <label for="numOfPages">Number of Pages:</label><br />
+        <input type="number" id="numOfPages" name="numOfPages" /><br />
+        <label>Has Been Read:</label><br />
+        <div class="radio-group">
+          <label><input id ="hasBeenRead" type="radio" name="hasBeenRead" value="yes" /> Yes</label>
+          <label><input id ="hasBeenRead" type="radio" name="hasBeenRead" value="no" /> No</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="table">
+        <table class="table table-dark table-striped" id="myTable">
+            <thead>
+              <tr>
+                <th scope="col">Author</th>
+                <th scope="col">Title</th>
+                <th scope="col">Number of Pages</th>
+                <th scope="col">Has Been Read</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+    </div>
+  </body>
+</html>

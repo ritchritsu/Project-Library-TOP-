@@ -1,0 +1,4 @@
+//submit form and display on a table 
+//"add book"make form appear and disappear
+
+//on submit, get the data in form, then add it to the books array
